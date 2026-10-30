@@ -67,7 +67,7 @@ public class Main {
                     int StockQuantity = scanner.nextInt();
 
                     if (movementChoice == 1) {
-                        productDAO.updateStock(productId, "IN2", StockQuantity);
+                        productDAO.updateStock(productId, "IN", StockQuantity);
                     } else if (movementChoice == 2) {
                         productDAO.updateStock(productId, "OUT", StockQuantity);                    } else {
                         System.out.println("Geçersiz işlem seçimi.");

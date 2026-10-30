@@ -89,7 +89,7 @@ public class ProductDao {
                     ps.setInt(1, quantity);
                     ps.setInt(2, productId);
 
-                    if (movementType.equals("Çıkış")) {
+                    if (movementType.equals("OUT")) {
                         ps.setInt(3, quantity);
                     }
 
