@@ -87,7 +87,7 @@ Database creation script: `database/schema.sql`
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/StockManagement.git
+git clone https://github.com/alperenyalciin/StockManagement.git
 ```
 
 ### 2. Create the database
